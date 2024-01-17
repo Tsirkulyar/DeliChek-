@@ -8,20 +8,20 @@ export default createRouter({
     history: createWebHistory(),
     routes:[
         {
-            path: '/',
+            path: '/DeliChek-/',
             name:'HelloCard',
             component: HelloCard},
         {
-            path: '/users',
+            path: '/DeliChek-/users',
             name:'GeneralForm',
             component: GeneralForm},
         {
-            path: '/products',
+            path: '/DeliChek-/products',
             name:'AddProducts',
             component: AddProducts
         },
         {
-            path: '/check',
+            path: '/DeliChek-/check',
             name:'CheckPage',
             component: CheckPage
         }

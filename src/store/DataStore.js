@@ -20,7 +20,7 @@ export const useDataStore = defineStore('dataStore', () => {
   const dialogVisible = ref(false)
   const showUs = ref(true)
   const showPr = ref(true)
-  const showTotalCheck = ref(false)
+  const showTotalCheck = ref(true)
   const showSelect = ref(false)
   const showCheckBox = ref(false)
   const showNotPrice = ref(false)

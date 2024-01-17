@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700');
+
+html{
+    background-color: #001336;
+    color: aliceblue;
+    height: 100%;
+}
+body{
+    font-family: 'Comfortaa', cursive;;
+}
